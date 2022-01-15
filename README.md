@@ -39,7 +39,7 @@ $python3 tsound2.py | aplay
 
 I have some loops that write out blocks of increasing strings that produce decreasing tones
 
-python`
+```python
 #short bursts range 20 decreacing tone longer string
 for i in range(5):
     for j in range(1,40):
@@ -60,4 +60,4 @@ for i in range(20):
         print("P"*t)
         print("@"*30)
 
-`
+```
